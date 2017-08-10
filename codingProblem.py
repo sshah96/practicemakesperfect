@@ -14,8 +14,9 @@ from collections import defaultdict
 ##    textView.close()
 ##
 ##
-book = open('plot.txt', 'rb')
-print book.readlines()
+##book = open('plot.txt', 'rb')
+
+
 
 
 #returns a dictionary that maps from each word in the text files to a count of each word in the book
@@ -30,4 +31,6 @@ def numOccurrences(textList, book):
     
 ##book.close()
 
-#Notes: the one-line-at-a-time reading is efficient in terms of memory usage; reading in the whole book file causes a memory 
+#Notes: the one-line-at-a-time reading is efficient in terms of memory usage; reading the entire file at once causes a MemoryError
+
+
