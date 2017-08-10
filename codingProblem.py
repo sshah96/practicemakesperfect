@@ -30,7 +30,7 @@ def numOccurrences(textList, book):
     return dataDict
     
 ##book.close()
-
+##print numOccurrences(textList, book)
 #Notes: the one-line-at-a-time reading is efficient in terms of memory usage; reading the entire file at once causes a MemoryError
 
 
